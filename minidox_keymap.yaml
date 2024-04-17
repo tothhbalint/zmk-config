@@ -1,0 +1,194 @@
+layout:
+  qmk_keyboard: corne_rotated
+  qmk_layout: LAYOUT_split_3x5_3
+layers:
+  base:
+  - Q
+  - W
+  - F
+  - P
+  - G
+  - J
+  - L
+  - U
+  - Y
+  - {t: ;, h: ':'}
+  - {t: A, h: LGUI}
+  - {t: R, h: LALT}
+  - {t: S, h: LCTRL}
+  - {t: T, h: LSHFT}
+  - D
+  - H
+  - {t: N, h: LSHFT}
+  - {t: E, h: LCTRL}
+  - {t: I, h: LALT}
+  - {t: O, h: LGUI}
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - K
+  - M
+  - {t: ',', h: '<'}
+  - {t: ., h: '>'}
+  - {t: /, h: '?'}
+  - {t: 'app switcher', type: ghost}
+  - {t: num, h: sticky}
+  - {t: SPC, h: nav}
+  - {t: '''', h: nav}
+  - {t: LSHFT, h: sticky}
+  - {t: '&key_repeat', type: ghost}
+  qwerty:
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - {t: A, h: LGUI}
+  - {t: S, h: LALT}
+  - {t: D, h: LCTRL}
+  - {t: F, h: LSHFT}
+  - G
+  - H
+  - {t: J, h: LSHFT}
+  - {t: K, h: LCTRL}
+  - {t: L, h: LALT}
+  - {t: ;, h: LGUI}
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - {t: ',', h: '<'}
+  - {t: ., h: '>'}
+  - {t: /, h: '?'}
+  - {t: 'app switcher', type: ghost}
+  - {t: num, h: sticky}
+  - {t: SPC, h: nav}
+  - {t: '''', h: nav}
+  - {t: LSHFT, h: sticky}
+  - {t: '&key_repeat', type: ghost}
+  nav:
+  - PG UP
+  - HOME
+  - UP
+  - END
+  - INS
+  - '15_stars'
+  - 'ä'
+  - 'ü'
+  - 'ß'
+  - 'ö'
+  - PG DN
+  - LEFT
+  - DOWN
+  - RIGHT
+  - TAB
+  - 'TODO'
+  - LSHFT
+  - LCTRL
+  - LALT
+  - LGUI
+  - ESC
+  - APP
+  - LC(BSPC)
+  - BSPC
+  - DEL
+  - '...'
+  - '""'
+  - '()'
+  - '[]'
+  - '{}'
+  - {t: '', type: ghost}
+  - RET
+  - {t: ▽, type: trans}
+  - {type: held}
+  - 'fun'
+  - {t: '', type: ghost}
+  num:
+  - LC(LG(LEFT))
+  - LC(LG(RIGHT))
+  - VOL DN
+  - VOL UP
+  - MUTE
+  - {t: '[', h: '{'}
+  - {t: '7', h: '&'}
+  - {t: '8', h: '*'}
+  - {t: '9', h: '('}
+  - {t: ']', h: '}'}
+  - LGUI
+  - LALT
+  - LCTRL
+  - LSHFT
+  - CAPS
+  - {t: '=', h: '+'}
+  - {t: '4', h: '$'}
+  - {t: '5', h: '%'}
+  - {t: '6', h: '^'}
+  - {t: '-', h: '_'}
+  - LC(Z)
+  - LC(X)
+  - LC(C)
+  - LC(V)
+  - DEL
+  - {t: \, h: '|'}
+  - {t: '1', h: '!'}
+  - {t: '2', h: '@'}
+  - {t: '3', h: '#'}
+  - {t: '`', h: '~'}
+  - {t: '', type: ghost}
+  - {type: held}
+  - SPC
+  - _
+  - {t: '0', h: ')'}
+  - {t: '&key_repeat', type: ghost}
+  fun:
+  - ':q'
+  - ':w'
+  - ':wq'
+  - ':q!'
+  - ':tabedit'
+  - PSCRN
+  - F7
+  - F8
+  - F9
+  - F12
+  - 'EP_TOG'
+  - ''
+  - 'RGB_EFR'
+  - 'RGB_EFF'
+  - 'RGB_TOG'
+  - 'Alt(F4)'
+  - F4
+  - F5
+  - F6
+  - F11
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - OUT TOG
+  - ''
+  - F1
+  - F2
+  - F3
+  - F10
+  - {t: BT CLR, type: ghost}
+  - BT CLR
+  - ''
+  - ''
+  - {type: held}
+  - {t: '', type: ghost}
+combos:
+- p: [1, 2]
+  k: {t: 'app switcher', h: ''}
+- p: [20, 21, 22, 23]
+  k: {t: qwerty, h: toggle}
